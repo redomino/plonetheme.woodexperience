@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules
+    xmlns="http://namespaces.plone.org/diazo"
+    xmlns:css="http://namespaces.plone.org/diazo/css"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+    <!-- Prevent theme usage in zmi-->
+    <rules css:if-content="#visual-portal-wrapper">
+        <theme href="index.html" />
+    </rules>
+    <notheme if-path="presentation_view"/>
+    <notheme if-path="source_editor.htm"/>
+    <notheme if-path="ploneimage.htm"/>
+    <notheme if-path="anchor.htm"/>
+    <notheme if-path="table.htm"/>
+    <notheme if-path="attributes.htm"/>
+    <drop theme='//*[@id="logo"]/h2' />
+
+    <replace content="/html/head/title" theme="/html/head/title" />
+    <replace content="/html/head/base" theme="/html/head/base" />
+    <replace content="/html/head/meta" theme="/html/head/meta" />
+    <prepend content='/html/head' theme='/html/head' />
+    <copy attributes="href title" css:content='#portal-logo' css:theme='#logo a' />
+    <copy attributes="id class dir" css:theme="body" css:content="body"/>
+    <replace css:theme-children="#logo h1">
+        <xsl:for-each css:select="a#portal-logo">
+          <xsl:value-of select="@title" />
+        </xsl:for-each>
+    </replace>
+    <copy content='//*[@id="portal-globalnav"]' theme='//*[@id="mainMenu"]' />
+
+    <copy content='//*[@id="portal-globalnav"]' theme='//*[@id="menu_footer"]' />
+    <drop attributes="id" css:content="#portal-globalnav"/>
+    <prepend content='//*[@id="portal-personaltools-wrapper"]' theme='//*[@id="view"]' />
+
+    <prepend css:content="#viewlet-above-content" css:theme="#content-wrapper"/>
+	<prepend css:content="#edit-bar" css:theme="#content-wrapper"/>
+    <copy css:content="#content" css:theme="#contentBlock"/>
+    <append css:content="#viewlet-below-content" css:theme-children="#content-wrapper"/>
+
+    <copy content-children='//*[@id="portal-column-one"]' theme='//*[@id="menuBlock"]' />
+    <after content='//*[@id="portal-footer"]' theme='//*[@id="foot"]' />
+    <after content='//*[@id="portal-colophon"]' theme='//*[@id="foot"]' />
+    <after content='//*[@id="portal-siteactions"]' theme='//*[@id="foot"]' />
+
+
+</rules>

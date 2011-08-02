@@ -1,0 +1,85 @@
+#content-wrapper {
+    padding-top: 20px;
+}
+
+#content {
+    font-size: 90%;
+}
+
+body {
+    font-size: 75%;
+}
+
+#viewlet-above-content,
+#edit-bar{
+    float: left;
+    width: 630px;
+}
+
+#portal-personaltools,
+#portal-personaltools dd{
+    background: none repeat scroll 0 0 #261913;
+}
+#portal-personaltools a{
+    color: #A1555A;
+}
+#portal-personaltools dd a:hover{
+    color:#261913;
+    background-color: #A1555A;
+}
+dl.portlet dt,
+div.portletAssignments div.portletHeader{
+    background:none;
+    margin-bottom:3px;
+}
+
+dl.portlet dt a:link,
+dl.portlet dt a:visited,
+dl.portlet dt a:hover{
+    color:#CFB6AA;
+    font-size:120%;
+}
+
+.portletItem ul{
+    border-left: 1px solid #685952;
+    margin-left: 5px;
+}
+
+.portletItem ul li{
+    margin-left: -1px;
+    border-left: 2px solid transparent;
+    border-bottom:0px !important;
+}
+
+.portletItem ul li:hover{
+    border-left: 2px solid #FFF;
+}
+dl.portlet  li a:hover{
+    color:#CFB6AA !important;
+    text-decoration:none !important;
+}
+
+#content a:link,
+a:link, a:visited{ color: #A1555A; border-bottom: 0px;}
+#content a:hover{ color:#CFB6AA !important; }
+#content a:visited{ color: #7c5356; border-bottom: 0px;}
+.ploneCalendar .todaynoevent { border: 2px solid #CFB6AA; }
+
+#contentBlock table td, #contentBlock table th {
+	padding:0px;
+	border-color: transparent;
+    border-style: solid;
+    border-width: 0px;
+}
+
+fieldset.formPanel{
+    background-color:#FFF;
+}
+	
+#contentBlock ul, #contentBlock ol, #contentBlock table {
+    margin-top: 0px;
+}
+
+#portal-footer {
+    background: none;
+}
