@@ -12,7 +12,7 @@ Zip file
 
 If you are an end user, you might enjoy installation via zip file import.
 
-1. Download the zip file: http://svn.plone.org/svn/collective/plonetheme.woodexperience/trunk/woodexperience.zip
+1. Download the zip file: https://raw.githubusercontent.com/redomino/plonetheme.woodexperience/master/woodexperience.zip
 2. Import the theme from the Diazo theme control panel.
 
 Buildout
