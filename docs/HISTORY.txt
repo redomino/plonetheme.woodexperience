@@ -1,8 +1,20 @@
 Changelog
 =========
 
+1.2 (unreleased)
+----------------
+
+- Added manifest file and preview file for diazo theme [macagua]
+
+- Update information about this package [macagua]
+
+- Updated LICENSE file [macagua]
+
+- Added more keywords and strings classifiers items for the PyPi metadata package [macagua]
+
 1.1 (2011-07-30)
 ----------------
+
 - Fixed doctype [giacomos]
 
 1.0 (2011-06-19)
