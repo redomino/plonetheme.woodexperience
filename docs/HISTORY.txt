@@ -3,6 +3,7 @@ Changelog
 
 1.2 (unreleased)
 ----------------
+- Added support for clean uninstallation using GenericSetup profile [macagua]
 - Added more strings classifiers items for this packages [macagua]
 - Updated diazo theme manifest file [macagua]
 - Added preview file for diazo theme manifest file [macagua]
