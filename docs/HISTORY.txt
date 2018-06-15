@@ -3,6 +3,7 @@ Changelog
 
 1.2 (unreleased)
 ----------------
+- Updated diazo theme manifest file [macagua]
 - Added preview file for diazo theme manifest file [macagua]
 
 1.1 (2011-07-30)
