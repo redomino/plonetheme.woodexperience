@@ -70,7 +70,7 @@ Zip file
 
 If you are an **end user**, you might enjoy installation via zip file import.
 
-1. Download a `zip file <https://github.com/redomino/plonetheme.woodexperience/raw/master/plonetheme.woodexperience.zip>`_.
+1. Download a `zip file <https://github.com/redomino/plonetheme.woodexperience/raw/master/woodexperience.zip>`_.
 2. Import the theme from the Diazo theme control panel.
 
 
