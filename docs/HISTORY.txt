@@ -3,6 +3,7 @@ Changelog
 
 1.2 (unreleased)
 ----------------
+- Added HTML5 validation for HTML file [macagua]
 - Added improvements about README file [macagua]
 - Added support for clean uninstallation using GenericSetup profile [macagua]
 - Added more strings classifiers items for this packages [macagua]
