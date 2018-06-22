@@ -17,7 +17,7 @@
 
   <genericsetup:registerProfile
       name="uninstall"
-      title="plonetheme.woodexperience: Uninstall profile for Plone 4 Diazo Theme"
+      title="plonetheme.woodexperience Uninstall"
       directory="profiles/uninstall"
       description="Uninstalls the plonetheme.woodexperience package"
       provides="Products.GenericSetup.interfaces.EXTENSION"
