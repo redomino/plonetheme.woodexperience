@@ -9,9 +9,17 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="Plone 4 Theme: Woodexperience"
+      title="plonetheme.woodexperience"
       directory="profiles/default"
       description="Installs the plonetheme.woodexperience package"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="plonetheme.woodexperience Uninstall"
+      directory="profiles/uninstall"
+      description="Uninstalls the plonetheme.woodexperience package"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
